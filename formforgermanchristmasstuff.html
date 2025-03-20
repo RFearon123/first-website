@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--do 3 questiond -->
+<html>
+    <head>
+        <script
+            src="formxmastradition.js"></script>
+        
+    </head>
+    <body>
+        <section class="quiz">
+            <h2>What Christmas traditions are you?</h2>
+            <form name= "quiz"action="submit_form.html" method="post">
+                <fieldset>
+                    <legend>Viel Spa&#0223; mit uns!</legend>
+                   
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    
+                    <label for="christmastradition">Favorite Type of Christmas Tradition :</label>
+                    <select id="christmastradition" name="christmastradition">
+                        <option value="christmas tree">Christmas Tree</option>
+                        <option value="christmas crackers">Christmas Crackers</option>
+                        <option value="present">Presents/ Gifts</option>
+                        <option value="church">Attending Church</option> 
+                        <option value="stockings">Christmas Stockings</option>
+                        <option value="santa">Santa Claus</option>
+                        <option value="sing carols">Carol-singing</option>
+
+                    </select>
+                    <fieldset>
+
+                    <label for="number">What is the highest number of gifts, you have received?</label>
+                    <input type="number" id="gifts" name="number" min="0" max="100">
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Which weather do you prefer at Christmas time?</legend>
+                       
+                        <!--snow-->
+                        <label for="snow">Snow</label>
+                        <input type="radio" id="snow" name="xmasweathertypes" value="snow">
+                        <!--sun-->
+                        <label for="sun">Sunny</label>
+                    <input type="radio" id="sun" name="xmasweathertypes" value="sun">
+                        <!--raining-->  
+                    <label for="rain">Raining</label>
+                    <input type="radio" id="rain" name="xmasweathertypes" value="rain">
+
+                    <!--hurricane-->
+                    <label for="hurricane">Hurricane</label>
+                    <input type="radio" id="hurricane" name="xmasweathertypes" value="rain">
+                    
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Which of these traditional Gemran Christmas desserts, have you heard of?</legend>
+                    <label for="lebkuchen">Lebkuchen</label>
+                    <input type="checkbox" id="lebkuchen" name="xmasdesserts" value="lebkuchen">
+
+                    <label for="vanillekipferl">Vanillekipferl</label>
+                    <input type="checkbox" id="vanillekipferl" name="xmasdesserts" value="vanillekipferl">
+                    
+                    <label for="stollen">Stollen</label>
+                    <input type="checkbox" id="stollen" name="xmasdesserts" value="stollen">
+
+                    <label for="pfeffernusse">Pfeffernusse</label>
+                    <input type="checkbox" id="pfeffernusse" name="xmasdesserts" value="pfeffernusse">
+
+                    <label for="marzipan">Marzipan</label>
+                    <input type="checkbox" id="marzipan" name="xmasdesserts" value="marzipan">
+
+                    <label for="schokoladenweihnachtsmann">Schokoladenweihnachtsmann (Chocolate Father Christmas)</label>
+                    <input type="checkbox" id="schokoladenweihnachtsmann" name="xmasdesserts" value="schokoladenweihnachtsmann">
+
+                </fieldset>
+                <fieldset>
+            
+                <label for="comments">Please, tell us about your personal Christmas traditions:</label>
+                    <textarea id="comments" name="comments" placeholder="Comment here"></textarea>
+                </fieldset>
+
+        </section>
+
+
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+                <button type="submit">Submit Answers</button>
+
+            </form>
+        </section>      
+    </body>
+</html>
+
+
+                    

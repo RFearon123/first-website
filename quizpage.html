@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styleforxmaswebsite.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+             <a href="projectxmashomepage.html"><li>Home</li></a>
+             <a href="projectxmaskrampuspage.html"><li>Austria</li></a>  
+             <a href="projectxmasgermanypagemarkerket.html"><li>Germany</li></a>
+             <a href="quizpage.html"><li>Quiz</li></a>
+           
+            </ul> 
+             </nav>
+
+        <h1>Why is Christmas Awesome?</h1>
+    </header>
+    <main>
+        <p>
+            Here is a quiz about why christmas is awesome.
+        </p>
+
+        <form name="Quiz">
+           <!--Text fields-->
+            <label for="name">Enter your name: </label><input type="text" name="name" size="30">
+
+<!-- size takes in max of 30 characters
+name in label and name in input reader are the same
+keep it consistent for screenreader
+-->
+          
+<!--Radio buttons
+name of question "" will not change across one question
+value will change- that is the answer the users can select/ input "numberOfCelebrators"
+-->
+        <p>
+            As of 2022, what percentage of the world celebrate Christmas?
+        </p>
+    <input type="radio" name="numberOfCelebrators"
+    value="80%">
+    <label for="80%">80%</label><br>
+
+
+    <input type="radio"
+    name="numberOfCelebrators"
+    value="34%">
+    <label for="34%">34%</label> <br>
+
+    <input type="radio"
+    name="numberOfCelebrators"
+    value="50%">
+    <label for="50%">50%</label><br>
+
+    <input type="radio"
+    name="numberOfCelebrators"
+    value="65%">
+    <label for="65%">65%</label><br>
+
+
+
+    <!--
+    Number fields
+    step="" controls the increments,
+    9% rounded to 10% 
+    -->
+        <br>
+    <label for="xmasChurch"> Approximately, what percentage of people attend a Christmas Day service at church: </label>
+    
+       
+    <input type="number" name="xmasChurch" min="0" max="100" step="10">
+
+        <br>
+ </form>
+<!--Submit buttons-->
+<button type="button" 
+onClick="checkAnswers();">Submit</button>
+
+
+
+
+
+
+
+
+    </main>
+    <!--
+    Put script towards end of body because java script obeys order of written code, it will load after html so webpage come up first and because JS would slow it down as JS is quite bulky -->
+    <script src="quizpageinteractivity.js"></script>
+
+</body>
+</html>
