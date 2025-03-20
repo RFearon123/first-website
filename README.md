@@ -1,9 +1,10 @@
+
  first website
-<<<<<<< HEAD
+
 # first website
 This is the first website I hvae created on MADLAB intro to web development course
 
-this mark down file will also serve as a place to practice myy maekdown text
+this mark down file will also serve as a place to practice my markdown text
 
 
 # A first-level heading 
@@ -18,6 +19,3 @@ this mark down file will also serve as a place to practice myy maekdown text
 
 to make text appear as code we use `backticks` and it willl change the appearance of the contained words
 ```triple backticks creates a block of code```  
-=======
-~ first website
->>>>>>> 0749ab0291097cf4ea2035fa876550cabeb0d742
